@@ -8,4 +8,4 @@
 
 [Fluxograma Tomada de Decisão](https://github.com/thamnasc/GFT-Start/tree/main/GFT%20Start%20%233%20Java/01.%20L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o%20Essencial/1.%20Introdu%C3%A7%C3%A3o%20%C3%A0%20l%C3%B3gica%20e%20%C3%A0%20programa%C3%A7%C3%A3o/4.%20Tomada%20de%20Decis%C3%A3o%20e%20Express%C3%A3o/Estudos)
 
-[Fluxograma Concatenação][https://github.com/thamnasc/GFT-Start/tree/main/GFT%20Start%20%233%20Java/01.%20L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o%20Essencial/1.%20Introdu%C3%A7%C3%A3o%20%C3%A0%20l%C3%B3gica%20e%20%C3%A0%20programa%C3%A7%C3%A3o/4.%20Tomada%20de%20Decis%C3%A3o%20e%20Express%C3%A3o/Estudos]
+[Fluxograma Concatenação](https://github.com/thamnasc/GFT-Start/tree/main/GFT%20Start%20%233%20Java/01.%20L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o%20Essencial/1.%20Introdu%C3%A7%C3%A3o%20%C3%A0%20l%C3%B3gica%20e%20%C3%A0%20programa%C3%A7%C3%A3o/4.%20Tomada%20de%20Decis%C3%A3o%20e%20Express%C3%A3o/Estudos)
