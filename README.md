@@ -1,18 +1,12 @@
-# GFT Start: Material de Estudos :rocket::blue_heart:
-Desafio de Projeto do módulo "Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso" 
+# GFT Start #3 Java:rocket::blue_heart:
+Neste repositório, estarei documentando meu material de estudo e meus códigos desenvolvidos ao longo do Bootcamp GFT Start #3 Java! Nas pastas, há a divisão entre "Material de Estudo" e "Estudos", sendo estes últimos códigos e exercícios que desenvolvi durante o _bootcamp_.
 
-(Na verdade, meu primeiro repositório foi o "Livro de Receitas" do módulo "Introdução ao Git e ao GitHub" em que escrevi o algoritmo de como eu faço as panquecas que eu amo! Corre lá para ver! [Livro de Receitas](https://github.com/thamnasc/GFT-Start-Livro-de-Receitas)) 
+A forma que eu gosto de me organizar para estudar online é escrevendo e salvando prints, enumerando-os de 000 a 500... (sim! Às vezes acontece! Quando estudei Cálculo Integral e Diferencial 1, meus prints chegaram a essa quantia de imagens :scream_cat:). Mas, brincadeiras à parte, ao ordenar os prints dessa forma, consigo me localizar com facilidade no conteúdo e, caso eu precise descrever alguma imagem, faço da seguinte maneira: *000_descrição*. Quando os slides foram disponibilizados, coloquei os arquivos originais da Digital Innovation One.
 
-Neste repositório, estarei documentando meu material de estudo para compartilhar com a comunidade dev! 
-
-A forma que eu gosto de me organizar para estudar online é salvando prints e enumerando de 000 a 500... (sim! juro! quando estudei Cálculo Integral e Diferencial 1, meus prints chegaram a essa quantia de imagens :scream_cat:). Assim, a ordem do que printei se mantém e, caso seja necessário que eu comente alguma descrição em específico, faço da seguinte maneira: *000_descrição*
-
-Além de utilizar a ordem numérica dos prints, eu gosto de enumerar as pastas, para que eu consiga me situar melhor nos conteúdos, nomeiando-as da seguinta maneira:
+Além de utilizar a ordem numérica dos prints, eu gosto de enumerar as pastas, para que eu consiga me situar melhor nos conteúdos, nomeiando-as, por exemplo:
 
 1. Introdução ao Git
 2. Navegação via command line interface e instalação
-
-Outra forma complementar de estudar é escrevendo em blocos de notas o que está sendo passado nas aulas, como comandos do Git e GitHub.
 
 #readytogrow #dreambig #planyourpriorities #makeacommitmenttogrowdaily :blue_heart:
 
