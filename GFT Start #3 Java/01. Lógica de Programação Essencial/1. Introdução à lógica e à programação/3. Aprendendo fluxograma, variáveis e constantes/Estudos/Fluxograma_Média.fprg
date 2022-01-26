@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Nascimento"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-14 10:44:10 "/>
+        <attribute name="created" value="TmFzY2ltZW50bztERVNLVE9QLVNKTDJJTjI7MjAyMi0wMS0xNDsiMDk6NDg6NTggIjszMzA5"/>
+        <attribute name="edited" value="TmFzY2ltZW50bztERVNLVE9QLVNKTDJJTjI7MjAyMi0wMS0xNDsiMTA6NDQ6MTAgIjs0OzMzOTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, total, media" type="Real" array="False" size=""/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="total" expression="(nota1 + nota2 + nota3 + nota4)"/>
+            <assign variable="media" expression="total / 4"/>
+            <output expression="total" newline="True"/>
+            <output expression="media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

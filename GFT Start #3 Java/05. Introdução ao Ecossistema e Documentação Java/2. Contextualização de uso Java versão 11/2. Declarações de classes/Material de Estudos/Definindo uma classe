@@ -1,0 +1,58 @@
+Estrutura básica de uma classe:
+
+public class Order {
+
+//atributos 
+    private final String code;
+    private final BigDecimal totalValue;
+
+//métodos
+    public BigDecimal calculateFee() {
+    }
+
+}
+
+public --> modificador de acesso
+Order --> nome da palavra sempre em letra maiúscula, nome da classe
+
+private --> modificador de acesso
+final --> palavra reservada 
+String --> tipo do atributo ou variável
+code --> atributo ou variável, neste caso atributo que representa o código "Order"
+
+BigDecimal --> tipo do atriuto
+totalValue --> atributo
+
+BigDecimal --> tipo de retorno ou outra classe ou tipo void (sem retorno)
+calculateFee --> nome do método
+
+--------------------
+//estrutura completa de uma classe
+
+package com.dio.base;
+
+import java.math.BigDecimal;
+
+public class Order {
+
+//definição dos atributos 
+    private final String code;
+    private final BigDecimal totalValue;
+
+//definição dos métodos    
+    public Order(String code, BigDecimal, totalValue){ //método construtor
+        this.code = code;
+        this.totalValue = totalValue;    
+    }
+
+    public BigDecimal calculateFee() { //método para calcular as taxas
+        return this.totalValue.multiply(new BigDecimal("0.99"));
+    }
+
+}
+
+//package com.dio.base; --> definição do pacote na qual a classe se encontra
+//import java.math.BigDecimal; --> quando precisa uma outra classe de outro pacote
+
+
+

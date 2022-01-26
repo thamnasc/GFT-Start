@@ -1,0 +1,19 @@
+Para iniciar o repositório no git
+- git init
+
+Mover arquivos e começar a dar início ao versionamento
+- git add
+
+Criar commit
+- git commit
+
+//a flag -a mostra arquivos ocultos
+ls -a
+
+Na primeira vez que usar o git, para gerar o commit é necessário informar usuário 
+//global, mas também é possível apenas para o repositório atual
+git config --global user.email "escrever_email"
+git config --global user.name "escrever_username"
+
+git add *
+git commit -m "commit inicial"

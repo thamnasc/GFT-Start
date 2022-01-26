@@ -1,0 +1,67 @@
+O que representa um livro para mim:
+Livro
+
+- Material da capa
+- Quantidade de páginas
+- Título
+- Autor
+- Assunto
+- Volume
+
+O que o instrutor pensou:
+Livro
+
+- Quantidade de páginas
+- Tema
+- Edição
+- Ano publicação
+- Peso
+- Editora
+- Tipo de Papel
+- Tipo de Capa
+- Assunto
+- Autor
+- ISBN
+- Idioma
+- Título
+- Subtítulo
+- Dimensões
+- Quantidade de Capítulos
+- Gramatura
+- Acabamento
+- Coloração
+
+-----------------------
+
+É preciso saber quando usar cada especificação, depende do contexto e da finalidade.
+
+para loja online (para quem vai vender):
+
+- Tema
+- Autor
+- Edição
+- Ano publicação
+- Assunto
+- Editora
+- ISBN
+- Subtítulo
+- Quantidade de páginas
+- Título
+
+para editora:
+
+- Quantidade de páginas
+- Tipo de Papel
+- Acabamento
+- ISBN
+- Tipo de Capa
+- Peso
+- Acabamento
+- Subtítulo
+- Gramatura
+- Coloração
+
+
+
+
+

@@ -1,0 +1,11 @@
+Gerar token de acesso pessoal no GitHub, guardá-lo na máquina, sempre que irá fazer um commit o git irá pedir usuário e senha para acessar (que será o token).
+
+Não é bom deixar esse arquivo na máquina, pois é um token de acesso.
+
+No GitHub --> settings --> developer settings --> personal access tokens
+
+--> copiar da pasta privada o Code HTTPS --> criar pasta para clonar o repositório, como workspace/token-test/ --> git clone (HTTPS) --> colocar usuário do github --> colocar token 
+
+
+
+

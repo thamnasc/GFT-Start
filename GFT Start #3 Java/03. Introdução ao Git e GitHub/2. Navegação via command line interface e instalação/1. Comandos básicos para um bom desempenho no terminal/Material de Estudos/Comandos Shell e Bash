@@ -1,0 +1,48 @@
+Comandos básicos para um bom desempenho no terminal
+
+
+Comandos BASH (unix):
+
+cd nome_da_pasta --> (change directory) muda de pasta
+    cd .. --> volta um diretório atrás
+    cd letra TAB --> completa o nome de pasta
+    cd / --> entra na base do Linux
+
+ls --> lista o que há no diretório
+
+clear ou CTRL + L--> limpa o terminal
+
+mkdir --> (make directory) cria diretório
+
+sudo --> obter permissão de superusuário
+
+echo --> printa no terminal o que digitar a seguir
+    echo hello > hello.txt --> joga o output de echo e coloca num arquivo; o sistema verifica se esse arquivo já existe ou não, se não existe, hello.txt será criado
+
+seta para cima --> navega entre comandos usados anteriormente
+
+rm -rf nome_da_pasta --> (rm = remove) (-rf é uma flag, r = recursivo, f = force) deleta todas as pastas contidas na pasta sem precisar de confirmação
+
+-------------------------
+Comandos SHELL (windows):
+
+cd nome_da_pasta --> (change directory) muda de pasta
+    cd .. --> volta um diretório atrás
+    cd letra TAB --> completa o nome de pasta
+    cd  / --> entra no diretório C:
+
+dir --> lista o que há no diretório
+
+cls --> (clear screen) limpa o terminal
+
+mkdir --> (make directory) cria diretório
+
+echo --> printa no terminal o que digitar a seguir
+    echo hello > hello.txt --> joga o output de echo "hello" e coloca num arquivo; o sistema verifica se esse arquivo já existe ou não, se não existe, hello.txt será criado
+
+del nome_da_pasta --> deleta os arquivos que estão dentro da pasta
+
+seta para cima --> navega entre comandos usados anteriormente
+
+rmdir nome_da_pasta /S /Q --> (remove directory) deleta a pasta
+    

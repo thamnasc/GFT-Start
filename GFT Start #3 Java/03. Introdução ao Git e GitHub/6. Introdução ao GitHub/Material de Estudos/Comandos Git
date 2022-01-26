@@ -1,0 +1,64 @@
+Para iniciar o repositório no git
+- git init
+
+Mover arquivos e começar a dar início ao versionamento
+- git add
+
+Criar commit
+- git commit
+
+//a flag -a mostra arquivos ocultos
+ls -a
+
+Na primeira vez que usar o git, para gerar o commit é necessário informar usuário 
+//global, mas também é possível apenas para o repositório atual
+git config --global user.email "escrever_email"
+git config --global user.name "escrever_username"
+
+git add *
+git commit -m "commit inicial"
+
+git status
+//monitora se o arquivo é untracked, modified ou staged
+
+comando terminal: 
+mv arquivo ./repositorio_desejado/
+move o arquivo para outro repositorio
+
+git add arquivo.md receitas 
+//para atualizar o status
+
+git commit -m "cria pasta receitas, move arquivo para receitas"
+
+git add *
+//pega todos os arquivos modificados e manda para estágio "staged", para poder commitar
+
+git status
+git commit -m "adiciona index"
+
+git config --list
+//mostra as configuracoes
+//para sair, se precisar, aperte q
+
+//para reconfigurar email e username
+git config --global --unset user.email
+git config --global --unset user.name
+
+//repassando email e username
+git config --global user.email "colocar_email"
+git config --global user.name "colocar_username"
+
+
+//adicionar origem para enviar arquivos
+git remote add origin "link https do repositório"
+
+//lista os repositórios remotos cadastrados
+git remote -v
+
+//empurra para a origin (link do repositório no GitHub) na branch master
+git push origin master
+
+(na minha máquina, funcionou da seguinte forma: git push -u origin main)
+//pede user no github e token
+
+

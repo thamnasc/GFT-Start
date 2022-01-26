@@ -1,0 +1,23 @@
+Objetos fundamentais
+
+Blob
+
+echo 'conteudo' | git hash-object --stdin
+//passa o output do echo para a função do git
+// a flag --stdin é usada para sinalizar que está enviando 
+texto, não criando arquivo
+//a função devolve o sha1 como conteúdo
+
+
+//sem usar git
+
+echo -e 'conteudo' | openssl sha1
+//gera outro sha1 diferente do acima
+
+//blob tamanho(9) \0 conteudo
+
+//echo -e 'blob 9\0conteudo'
+//assim terá o mesmo sha1
+
+
+

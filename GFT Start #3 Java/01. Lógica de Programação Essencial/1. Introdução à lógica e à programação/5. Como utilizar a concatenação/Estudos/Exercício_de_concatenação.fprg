@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Nascimento"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-14 11:20:32 "/>
+        <attribute name="created" value="TmFzY2ltZW50bztERVNLVE9QLVNKTDJJTjI7MjAyMi0wMS0xNDsiMTE6MTE6NDQgIjszMjg3"/>
+        <attribute name="edited" value="TmFzY2ltZW50bztERVNLVE9QLVNKTDJJTjI7MjAyMi0wMS0xNDsiMTE6MjA6MzIgIjsxOzMzOTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Nome, Sobrenome" type="String" array="False" size=""/>
+            <declare name="nota1, nota2, nota3, nota4, media" type="Real" array="False" size=""/>
+            <output expression="&quot;Ol&#225;! Informe o seu nome: &quot;" newline="True"/>
+            <input variable="Nome"/>
+            <output expression="&quot;Informe, tamb&#233;m, o seu sobrenome: &quot;" newline="True"/>
+            <input variable="Sobrenome"/>
+            <output expression="Nome &amp; &quot; &quot; &amp; Sobrenome &amp; &quot;, n&#243;s vamos calcular a sua m&#233;dia! Por favor, digite suas quatro notas: &quot;" newline="True"/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1 + nota2 + nota3 + nota4) / 4"/>
+            <if expression="media &gt;= 7">
+                <then>
+                    <output expression="Nome &amp; &quot; &quot; &amp; Sobrenome &amp; &quot;, sua m&#233;dia &#233; &quot; &amp; media &amp; &quot;, voc&#234; passou, UHUUUL!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="Nome &amp; &quot; &quot; &amp; Sobrenome &amp; &quot;, sua m&#233;dia &#233; &quot; &amp; media &amp; &quot;, infelizmente, voc&#234; n&#227;o passou D':&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

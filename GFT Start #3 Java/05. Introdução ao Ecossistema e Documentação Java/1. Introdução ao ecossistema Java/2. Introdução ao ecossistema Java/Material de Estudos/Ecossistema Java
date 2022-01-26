@@ -1,0 +1,1 @@
+Na linguagem Java, o arquivo fonte (com extensão .java) é compilado pelo Java Compiler (javac) para executável bytecodes (extensão .class) que é interpretado pela JVM (Java Virtual Machine)

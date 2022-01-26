@@ -1,0 +1,57 @@
+https://github.com/cami-la/curso-dio-dominando-ides-java
+
+instruções para instalar openJDK e github, além de instalação do eclipse e IntelliJ IDEA
+
+------------------------------------
+Atalhos Eclipse:
+
+Debug : F5 entra no método
+F7 sai do método
+F6 vai para próxima linha
+
+
+clicando em src --> CTRL N --> criar nova classe
+CTRL 1 --> dá dica para criar variáveis chamando os métodos
+CTRL SPACE --> completa comandos
+CTRL D --> exclui uma linha
+SHIFT seta para cima ou para baixo --> seleciona linha
+CTRL SHIFT C --> comenta um bloco
+CTRL SHIFT F --> arruma a indentação
+Sysout CTRL SPACE --> para printar
+    main CTRL SPACE --> para criar método principal
+CTRL SHIFT T --> para encontrar classe
+CTRL W --> fecha a aba
+CTRL SHIFT W --> fecha todas as abas
+
+-----------------------------------
+
+Atalhos IntelliJ:
+
+clicando em scr --> alt Insert --> para criar classe
+CTRL SHIFT F10 --> para configurar e rodar
+SHIFT F10 --> rodar quando já está configurado
+CTRL SHIFT BARRA --> comenta bloco
+CTRL BARRA --> comenta linha por linha
+alt enter --> import da class
+clicando na classe --> SHIFT F6 --> para renomear
+ctrl alt o --> deleta linha
+SHIFT F12 --> deixa só o editor de texto amostra
+CTRL ALT L --> ajusta indentação
+CTRL D --> duplica linha
+CTRL Y --> deleta linha
+CTRL SHIFT setas --> move linhas pra cima ou pra baixo
+CTRL K --> seleciona as alterações de arquivo para commitar no git
+clicar na pasta --> CTRL SHIFT K --> parar fazer push
+CTRL alt V --> cria variável
+CTRL F4 --> fecha as abas
+CTRL N --> para encontrar classes
+CTRL B --> entra na classe
+
+debug:
+
+F8 --> pular passos
+F7 --> step-into
+alt shift f7 --> force step-into
+shift f8 --> voltar um passo 
+
+

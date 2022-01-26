@@ -1,0 +1,39 @@
+Chave SSH:
+Forma de estabelecer uma conexão segura e encriptada entre duas máquinas; por exemplo: entre nossa máquina e uma confiável do github.
+
+Colocamos a chave ssh pública da nossa máquina no github, aí a partir dessa "assinatura" da nossa máquina, dessa conexão prévia, somos capazes de enviar código sem nem precisar usuário/senha, pois a máquina já está conectada propriamente.
+
+No windows e no linux, a criação de chave ssh é bem parecida, por causa do git bash. No Mac, há uns passos no final a mais.
+
+pastas com . na frente, como .ssh ficam ocultas.
+
+ssh -keygen -t ed22519 -C email
+(não precisa mexer na pasta) dar enter
+entre com a senha
+
+/home/nome_do_usuario/.ssh/ é onde vai estar a chave no linux
+/c/Users/nome_do_usuario/.ssh/ é onde vai estar no windows
+
+copiar chave .pub, colar no github em SSH AND GPG keys (SSH keys / Add new) e configurar ssh agent no CLI
+
+digitar no /.ssh:
+
+eval $(ssh-agent -s)
+//vai imprimir Agent pid xxxxx //números variam
+
+digitar no /.ssh:
+
+ssh-add id_ed25519
+//passar a chave privada para o Agent, para descriptografar a mensagem
+//vai pedir a senha
+//vai retornar Identity added: id_ed25519 (email)
+
+O processo, portanto, é:
+
+- Gerar a chave, 
+- entrar no /.ssh, 
+- colocar no GitHub a chame .pub e 
+- configurar o Agent, passando a chave privada para o Agent
+
+Para clonar repositório privado:
+Code -> copiar link SSH -> em uma pasta reservada como /workspace/ssh-test -> git clone (caminho SSH) -> confirmar "yes"

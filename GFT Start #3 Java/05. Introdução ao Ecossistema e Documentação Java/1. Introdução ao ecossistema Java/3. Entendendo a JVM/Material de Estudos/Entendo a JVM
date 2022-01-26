@@ -1,0 +1,35 @@
+JVM:
+
+- execução das pilhas
+- gerenciamento de memória (alocação e desalocação de memória)
+- gerenciamento e execução das threads
+- contém feature de otimização de código: complicação just in time ()JIT, apesar de ser interpretada
+- garbage collector (GC) responsável por fazer toda a limpeza da memória suja (quando faz alocação e desalocação da memória RAM, fica uma "sujeira"), como a linguagem Java é de autonível, não é necessário limpar memória, se preocupar com ponteiros
+
+----------
+Diferença entre Java e outras linguagens, como C ou C++:
+
+- C
+o compilador é responsável para fazer um executável para cada um dos sistemas operacionais (linux, windows ou mac, compilando 3 vezes)
+
+- Java
+todo o código fonte (.java) é compilado pelo javac para o executável da JVM, os bytecodes (.class), as JVM de cada sistema operacional que faz a interpretação desses bytecodes traduzindo o código para uma linguagem de máquina executando no linux, windows e mac, então a grande diferença é:
+em Java é compilado APENAS para JVM.
+
+-------------
+
+JRE (Java Runtime Environment) - responsável por executar os programas em Java, é a JVM propriamente dita; caso queira apenas executar um programa Java no computador, é preciso instalar só ele
+
+JDK (Java Development Kit) - utilitários que permite o desenvolvimento de programas em Java. Já possui a JVM para executar os programas, ou seja, contém o JRE. Consegue desenvolver e testar os programas em Java
+
+----------
+
+Plataformas Java:
+
+- Java SE (Java Standard Edition) - contém as especificações do Java (como funciona, que classes contém) e pode ser implementada por diversas empresas como Oracle, OpenJDK, Azul Zulu, etc.
+
+- Java EE (Java Enterprise Edition) - contém todas as especificações do Java SE e tem um número grande de executáveis para que executem em servidores. Foi renomeado para Jakarta EE em 2019
+
+- Java ME (Java Micro Edition) - contém especificações para desenvolvimento de dispositivos pequenos, como celulares, PDAs, entre outros 
+
+

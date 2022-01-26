@@ -1,0 +1,42 @@
+Instalando a JVM:
+
+Terminal do linux
+
+sudo apt install curl
+
+----------
+
+Para instalar o Java, pode instalar pelo próprio repositório do Sistema Operacional ou usar um gerenciador de versão do Java;
+
+- Quando instalamos usando SO, geralmente ficamos com uma única versão do Java instalado, o que não acontece no ambiente de trabalho, geralmente tem várias programas usando várias versões do Java.
+
+O legal é usar o Java Version Manager, que facilita a troca de versões do java;
+
+Exemplos de Java Version Manager:
+sdkman
+jabba (simples e fácil de se usar)
+
+Pelo Jabba:
+https://github.com/shyiko/jabba
+Documentação está no readme.md
+
+curl -sL https://github.com/shyiko/jabba/raw/master/install.sh | bash && . ~/.jabba/jabba.sh
+
+após concluída a instalação, no terminal digitar "jabba" para ver os detalhes
+
+-----------
+
+Comandos jabba:
+
+jabba ls-remote --> lista as versões e implementações do jdk disponíveis no java version manager
+
+jabba install openjdk@1.11 --> passa a versão que quer, neste caso é a openjdk@1.11 (faz download e instalação no diretório dele) (instalamos a versão 1.10 para ver como funciona também)
+
+jabba use openjdk@1.11 --> troca de versão, passando a versão e implementação que quer (para realmente usar!)
+
+java -version --> para confirmar que está tudo certo e confirma a versão que está sendo usada
+
+jabba ls --> mostra as versões instaladas
+-------
+
+
