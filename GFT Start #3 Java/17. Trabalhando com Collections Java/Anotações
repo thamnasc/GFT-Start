@@ -1,0 +1,18 @@
+Interface Map não extende da Interface Collection, mas está no mesmo framework.
+
+
+TreeSet e TreeMap --> são estruturadas como árvores binárias, são implementações
+
+
+Vector e Hashtable --> as implementações são thread safety
+
+
+
+List --> impor java.util.list
+    
+ArrayList --> implementa apenas a interface List
+LinkedList --> implementa tanto a interface List quanto a interface Queue
+
+Na dúvida, escolher ArrayList para implementar.
+
+LinkedList --> lista duplamente ligada
