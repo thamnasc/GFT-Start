@@ -12,6 +12,7 @@ public class QtdeNumerosPositivos {
         int Pos, i;
 
         Pos=0;
+        
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         for (i = 1; i <= 6; i++) {
             linha = br.readLine();

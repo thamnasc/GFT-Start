@@ -4,12 +4,12 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class Problem {
-//complete os espaços em branco com uma solução possível
-
     public static void main(String[] args) throws IOException {
+
         Scanner leitor = new Scanner(System.in);
         int T = leitor.nextInt();
         int B, A1, D1, L1, A2, D2, L2, V1 = 0, V2 = 0;
+        
         for (int i = 0; i < T; i++) {
             B = leitor.nextInt();
             A1 = leitor.nextInt();
@@ -40,5 +40,4 @@ public class Problem {
             else System.out.println("Empate");
         }
     }
-
 }

@@ -20,11 +20,6 @@ public class Main {
         boolean colunaPar = C % 2 == 0;
 
         if(condicaoL & condicaoC) {
-            /*if ((     )     ==0)
-                System.out.println("0");
-            else                                               //complete o código nos espaços em branco
-                System.out.println("1");*/
-
             if(linhaPar){
                 if(colunaPar) System.out.println("1"); //branco
                 else System.out.println("0"); //preto
@@ -33,7 +28,7 @@ public class Main {
                 else System.out.println("1"); //branco
             }
         }
-
+        
         sc.close();
     }
 }
