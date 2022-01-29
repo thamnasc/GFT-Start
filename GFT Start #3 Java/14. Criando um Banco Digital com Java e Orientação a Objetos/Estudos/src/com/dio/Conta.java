@@ -59,4 +59,8 @@ public abstract class Conta implements InterfaceConta {
         //depósito na conta destino
         contaDestino.depositar(valor);
     }
+
+    @Override
+    public void imprimirInformacoes() {
+    }
 }
