@@ -1,7 +1,7 @@
 # GFT Start #3 Java :rocket::blue_heart:
 Neste repositório, estarei documentando meu aprendizado ao longo do Bootcamp GFT Start #3 Java! Nas pastas, há a divisão entre "Material de Estudo" e "Estudos", sendo estes últimos códigos e exercícios que desenvolvi durante o _bootcamp_.
 
-A forma que eu gosto de me organizar para estudar online é escrevendo notas e salvando prints, enumerando-os de 000 a 500... (sim! Às vezes acontece! Quando a matéria é extensa, como Cálculo Integral e Diferencial 1 :scream_cat:). Mas, brincadeiras à parte, ao ordenar os prints dessa forma, consigo me localizar com facilidade no conteúdo e, caso eu precise descrever alguma imagem, faço da seguinte maneira: *000_descrição*. Quando os slides foram disponibilizados, coloquei os arquivos originais da Digital Innovation One.
+A forma que eu gosto de me organizar para estudar online é escrevendo notas e salvando prints, enumerando-os de 000 a N. Ao ordenar os prints dessa forma, consigo me localizar com facilidade no conteúdo e, caso eu precise descrever alguma imagem, faço da seguinte maneira: *000_descrição*. Quando os slides foram disponibilizados, organizei meu material com os arquivos originais da Digital Innovation One.
 
 Além de utilizar da ordem numérica nos prints, eu gosto de enumerar as pastas, para que eu consiga me situar melhor nos conteúdos, nomeiando-as, por exemplo:
 
