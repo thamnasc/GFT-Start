@@ -8,12 +8,12 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-        boolean continuaExecucao = true;
         String entradaAlfanumerica;
         int entradaNumerica;
         double dinheiro;
 
         Banco banco = new Banco();
+        //cria conta para fazer transação
         Cliente cliente1 = new Cliente();
         cliente1.setNome("Cliente DIO");
         cliente1.setIdade(30);
