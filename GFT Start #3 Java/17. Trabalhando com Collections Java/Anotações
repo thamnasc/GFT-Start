@@ -8,7 +8,7 @@ Vector e Hashtable --> as implementações são thread safety
 
 
 
-List --> impor java.util.list
+List --> import java.util.list
     
 ArrayList --> implementa apenas a interface List
 LinkedList --> implementa tanto a interface List quanto a interface Queue
@@ -16,3 +16,29 @@ LinkedList --> implementa tanto a interface List quanto a interface Queue
 Na dúvida, escolher ArrayList para implementar.
 
 LinkedList --> lista duplamente ligada
+
+-------------
+
+Set --> import java.util.Set
+
+não permite elementos duplicados, não possui índice
+
+TreeSet --> importante para ordenação, mantém a ordem natural dos elementos
+(ordenados crescentemente); não permite elemento nulo
+
+HashSet --> não mantém ordem dos elementos; permite apenas um elemento nulo
+
+LinkedHashSet --> mantém a ordem de inserção dos elementos; permite apenas um elemento nulo
+-----------
+
+Map --> não extende da interface Collection, mas faz parte do framework
+
+java.util.Map
+
+Hashtable --> antiga
+
+TreeMap --> principal implementação
+
+
+
+
