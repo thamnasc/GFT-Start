@@ -1,3 +1,4 @@
+import com.dio.gof.facade.Facade;
 import com.dio.gof.singleton.SingletonEager;
 import com.dio.gof.singleton.SingletonLazy;
 import com.dio.gof.singleton.SingletonLazyHolder;
@@ -30,7 +31,7 @@ public class Teste {
         //deve voltar o mesmo endereço de memória
         System.out.println(lazyHolder);
 
-        //Teste relacionados ao Design Patter Strategy
+        //Teste relacionados ao Design Patterb Strategy
 
         Comportamento normal = new ComportamentoNormal();
         Comportamento agressivo = new ComportamentoAgressivo();
@@ -46,5 +47,11 @@ public class Teste {
 
         robo.setComportamento(defensivo);
         robo.mover();
+
+        //Teste relacionados ao Design Pattern Facade
+
+        Facade facade = new Facade();
+        facade.migrarCliente("Thalita", "00000-000");
+
     }
 }
