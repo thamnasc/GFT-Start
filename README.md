@@ -1,5 +1,5 @@
-# GFT Start #3 Java :rocket::blue_heart:
-Neste repositório, estarei documentando meu aprendizado ao longo do Bootcamp GFT Start #3 Java! Nas pastas, há a divisão entre "Material de Estudo" e "Estudos", sendo estes últimos códigos e exercícios que desenvolvi durante o _bootcamp_.
+# GFT Start Java :rocket::blue_heart:
+Neste repositório, estarei documentando meu aprendizado ao longo dos Bootcamps GFT Start #3 e #4 Java! Nas pastas, há a divisão entre "Material de Estudo" e "Estudos", sendo estes últimos códigos e exercícios que desenvolvi durante o _bootcamp_.
 
 A forma que eu gosto de me organizar para estudar online é escrevendo notas e salvando prints, enumerando-os de 000 a N. Ao ordenar os prints dessa forma, consigo me localizar com facilidade no conteúdo e, caso eu precise descrever alguma imagem, faço da seguinte maneira: *000_descrição*. Quando os slides foram disponibilizados, organizei meu material com os arquivos originais da Digital Innovation One.
 
