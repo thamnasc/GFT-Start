@@ -11,7 +11,7 @@ public class Main {
         double N;
         int quociente, reais;
         int[] notas = {100,50,20,10,5,2};
-        int[] moedasInt = {100,50,25,10,5,1};
+        int[] moedas = {100,50,25,10,5,1};
 
         N = sc.nextDouble();
         reais = (int) (N * 100);
@@ -26,9 +26,9 @@ public class Main {
 
         System.out.println("MOEDAS:");
 
-        for (int moeda : moedasInt) {
+        for (int moeda : moedas) {
             quociente = reais / (moeda);
-            reais %= (moeda);
+            reais %= moeda;
             System.out.print(quociente + " moeda(s) de R$ ");
             System.out.printf("%.2f\n", (float) moeda/100);
         }
