@@ -20,7 +20,7 @@ public class Luta {
     public void marcarLuta(Lutador l1, Lutador l2) {
 
         //se um não for inválido, já basta
-        //porque testa se os dois são iguais
+        //porque testa se as categorias são iguais
         if(!l1.getCategoria().equals("inválido") &&
                 //lutadores diferentes
                 l1 != l2 &&
